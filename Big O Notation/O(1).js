@@ -1,0 +1,8 @@
+const arr = [10, 20, 30];
+
+// CONSTANT TIME
+// DOESNOT MATTER HOW MUCH OUR ARR VARIABLE INCREASES IT TAKES SAME AMOUNT OF OPERATION
+
+function getFirstBox() {
+  console.log(arr[2]);
+}
