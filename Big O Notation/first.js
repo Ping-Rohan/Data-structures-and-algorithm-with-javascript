@@ -1,7 +1,11 @@
-const students = ["rohit", "roshan", "rohan"];
+const students = ["rohit", "roshan", "rohan"]; // this took less time
+
+const largeStudents = new Array(10000).fill("rohan"); // this took even longer time
 
 // THE BIG O FOR THIS SORT OF PROBLEM IS O(n)
 // IT TAKES TAKES N NUMBER OF ITERATIONS
+// THE TOTAL TIME TAKEN REALLY DEPENDS UPON USERS COMPUTER
+// HENCE BIG O WE CAN DIFFER WHICH ALGORITHM IS BETTER WHILE INCREASING THE NUMBER OF INPUTS
 
 function findStudent(array) {
   let time0 = performance.now();
@@ -14,4 +18,4 @@ function findStudent(array) {
   console.log(`The program took  ${time1 - time0} millisecond`);
 }
 
-findStudent(students);
+findStudent(largeStudents);
