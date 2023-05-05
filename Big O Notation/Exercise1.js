@@ -21,5 +21,6 @@ function containsCommonItem(firstArr, secondArr) {
 const array1 = ["x", "y", "z", "a"];
 const array2 = ["k", "b", "c", "n"];
 
+// O(a+b)
 const doContain = containsCommonItem(array1, array2);
 console.log(doContain);
