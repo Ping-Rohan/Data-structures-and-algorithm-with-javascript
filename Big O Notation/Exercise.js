@@ -15,3 +15,12 @@ funChallange();
 
 // 3 + n + n  + n + n = O(3+4n) = O(n)
 // CONSTANTS ARE IGNORED
+
+// BIG O RULES
+
+/* 
+    TAKE WORST CASE 
+    REMOVE CONSTANTS
+    DIFFERENT TERMS FOR INPUT
+    DROP NON DOMINANTS
+*/
